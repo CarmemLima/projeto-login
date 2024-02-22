@@ -9,14 +9,15 @@ Telas larga (notebooks, desktops): mínimo 992px até 1200px;
 Telas extra largas (desktops, notebooks com telas largas): mínimo 1200px acima.
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+/*CONFIGURAÇOES PARA TABLET*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login{
         width: 80vw;
-
+        height: 290px;
 
     }
 
@@ -29,20 +30,19 @@ Telas extra largas (desktops, notebooks com telas largas): mínimo 1200px acima.
     section#login >div#formulario{
         float: right;
         width: 70%;
-        
-
     }
 
 }
 
 @media screen and (min-width: 992px) {
-
+/*CONFIGURAÇÕES PARA DESKTOPS E TELAS MAIORES*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login{
         width: 950px;
+        height: 330px;
     }
 
     section#login >div#imagem{
@@ -62,7 +62,7 @@ Telas extra largas (desktops, notebooks com telas largas): mínimo 1200px acima.
     }
 
     div#formulario >p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
 }
